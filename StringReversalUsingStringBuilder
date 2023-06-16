@@ -1,0 +1,13 @@
+package com.main;
+
+public class Testing {
+
+    public static void main(String[] args) {
+      
+    	String name="anusha Kalyani";
+    	StringBuilder reverse=new StringBuilder(name);
+    	name=reverse.reverse().toString();
+    	System.out.println(name);
+    }
+    
+}
